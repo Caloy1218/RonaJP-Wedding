@@ -33,7 +33,7 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
-  background-color: #1b1c1e;
+  background-color: #b7410e;
 }
 .bar {
   display: block;
@@ -102,9 +102,12 @@ main h2 {
   color: #b7410e;
   font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
   .hamburger {
     display: block;
+  }
+  .nav-container ul li a {
+    color: white;
   }
   .img-icon {
     margin: 0;
@@ -136,12 +139,12 @@ main h2 {
     text-align: center;
     transition: 0.5s;
     height: 100vh;
-    background-color: #1b1c1e;
+    background-color: #b7410e;
   }
   .nav-item {
     margin: 40px 0px;
     width: 100%;
-    border-bottom: 1px solid #b7410e;
+    border-bottom: 1px solid white;
   }
   .nav-menu.active {
     left: 0px;
